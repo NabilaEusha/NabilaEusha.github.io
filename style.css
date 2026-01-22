@@ -1212,3 +1212,18 @@ address {
 .contact-link:hover {
   color: var(--primary);
 }
+
+.site-footer {
+  text-align: center;
+  padding: 16px 0;
+  font-size: 0.9rem;
+  color: var(--text-muted, #888);
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  margin-top: 40px;
+}
+
+/* Dark mode support (if you are using theme toggle) */
+body.dark .site-footer {
+  border-top: 1px solid rgba(255, 255, 255, 0.15);
+  color: #aaa;
+}
